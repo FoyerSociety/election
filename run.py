@@ -7,9 +7,12 @@ options = {
 
 eel.init('view')
 
+@eel.expose
+def test ():
+	print('test')
 
 def main():
-	eel.start('home.html', position=(175,50),  options=options)
+	eel.start('home.html', position=(175,50), options=options)
 
 
 if __name__ == '__main__':

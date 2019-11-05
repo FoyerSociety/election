@@ -1,12 +1,14 @@
-// Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+import eel from 'eel'
+const {app, BrowserWindow, Menu} = require('electron')
+
+// eel.test()
 
 let mainWindow
 
 function createWindow () {
 	mainWindow = new BrowserWindow({
-		width: 1000,
-		height: 600,
+		width: 1100,
+		height: 660,
 		resizable: false,
 		webPreferences: {
 			nodeIntegration: true
@@ -37,3 +39,24 @@ app.on('activate', function () {
 // dock icon is clicked and there are no other windows open.
 if (mainWindow === null) createWindow()
 })
+
+const menu = Menu.buildFromTemplate(
+	[
+		{
+			label: "Fichier",
+			submenu: [
+				{
+					label: "Fermer la fenetre",
+					click: function(){
+						app.quit()
+					}
+				}
+			]
+		},
+		{
+			label: "Edition"
+		}
+	]
+);
+
+Menu.setApplicationMenu(menu);
