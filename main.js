@@ -10,11 +10,11 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 600,
+    resizable: false,
     webPreferences: {
       nodeIntegration: true
     }
   })
-
   // and load the index.html of the app.
   mainWindow.loadURL('http://localhost:8000/home.html');
 

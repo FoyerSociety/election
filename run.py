@@ -3,7 +3,7 @@ import eel
 
 options = {
 	'mode' : 'custom',
-	'args' : ['/usr/lib/electron/electron', '.']
+	'args' : ['/usr/bin/electron', '.']
 }
 
 eel.init('view')
