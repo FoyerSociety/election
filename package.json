@@ -1,0 +1,24 @@
+{
+  "name": "election",
+  "version": "1.0.0",
+  "description": "une plateforme pour améliorer l'election",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoyerSociety/election.git"
+  },
+  "keywords": [
+    "election",
+    "smart",
+    "contracts"
+  ],
+  "author": "DevSociety (Gaetan, Dinahasina, Landry, Aina)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FoyerSociety/election/issues"
+  },
+  "homepage": "https://github.com/FoyerSociety/election#readme"
+}
