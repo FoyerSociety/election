@@ -1,7 +1,7 @@
 {
-  "name": "election",
+  "name": "Election",
   "version": "1.0.0",
-  "description": "une plateforme pour l'amelioration l'election à Madagascar ",
+  "description": "Une plateforme pour améliorer l'élection à Madagascar",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
