@@ -6,7 +6,7 @@ bottle-websocket==0.2.9
 certifi==2019.9.11
 chardet==3.0.4
 cytoolz==0.10.1
-Eel==0.11.0
+Eel==0.10.4
 eth-abi==2.0.0
 eth-account==0.4.0
 eth-hash==0.2.0
