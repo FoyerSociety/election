@@ -8,6 +8,7 @@ options = {
 
 eel.init('view')
 
+
 def main():
 	eel.start('home.html', position=(175,50),  options=options)
 
