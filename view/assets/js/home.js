@@ -69,21 +69,3 @@
     
 })(jQuery);
 
-$('input').each(function(){
-    $(this).focusout(function(){
-        if ($(this).val().trim() == ""){
-
-            if ($(this).attr('type') == 'text'){
-                $(this).next().attr('data-placeholder', "Nom d'utilisateur");
-            }
-            else{
-                $(this).next().attr('data-placeholder', "Nom d'utilisateur");
-            }
-            
-        }
-        else{
-            $(this).next().attr('data-placeholder', "");
-        }
-        
-    });
-});
