@@ -1,8 +1,9 @@
 import eel
+import sys
 
 options = {
 	'mode' : 'custom',
-	'args' : ['/usr/bin/electron', '.']
+	'args' : ['/usr/bin/electron' if sys.platform == 'linux' else '', '.']
 }
 
 eel.init('view')
