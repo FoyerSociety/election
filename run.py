@@ -13,7 +13,7 @@ def test ():
 	print('test')
 
 def main():
-	eel.start('home.html', position=(135, 35), options=options)
+	eel.start('insert.html', position=(135, 35), options=options)
 
 
 if __name__ == '__main__':
