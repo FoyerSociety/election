@@ -12,7 +12,7 @@
 		"ethereum",
 		"DevSociety"
 	],
-	"author": "DevSociety",
+	"author": "DevSociety: https://github.com/orgs/FoyerSociety/teams/devsociety/members",
 	"license": "MIT",
 	"devDependencies": {
 		"electron": "^3.0.2"
