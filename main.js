@@ -1,7 +1,5 @@
-import eel from 'eel'
 const {app, BrowserWindow, Menu} = require('electron')
 
-// eel.test()
 
 let mainWindow
 
