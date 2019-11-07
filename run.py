@@ -3,7 +3,7 @@ import sys
 
 options = {
 	'mode' : 'custom',
-	'args' : ['/usr/bin/electron' if sys.platform == 'linux' else '', '.']
+	'args' : ['/usr/bin/electron4' if sys.platform == 'linux' else '', '.']
 }
 
 eel.init('view')
@@ -13,7 +13,7 @@ def test ():
 	print('test')
 
 def main():
-	eel.start('insert.html', position=(135, 35), options=options)
+	eel.start('home.html', position=(135, 35), options=options)
 
 
 if __name__ == '__main__':
