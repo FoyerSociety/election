@@ -1,89 +1,49 @@
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont-v%3d4.6.3.eot');
+  src: url('../fonts/fontawesome-webfont-.eot#iefix&v=4.6.3') format('embedded-opentype'),
+      url('../fonts/fontawesome-webfont-v%3d4.6.3.woff2') format('woff2'),
+      url('../fonts/fontawesome-webfont-v%3d4.6.3.woff') format('woff'), 
+      url('../fonts/fontawesome-webfont-v%3d4.6.3.ttf') format('truetype'),
+      url('../fonts/fontawesome-webfont-v%3d4.6.3.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
-  font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
-* {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
 }
 
-body, html {
-	height: 100%;
-	font-family: sans-serif;
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 }
 
-/* ------------------------------------ */
-a {
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-/* ------------------------------------ */
-h1,h2,h3,h4,h5,h6 {margin: 0px;}
-
-p {margin: 0px;}
-
-ul, li {
-	margin: 0px;
-	list-style-type: none;
+@font-face {
+  font-family: Poppins-Light;
+  src: url('../fonts/poppins/Poppins-Light.ttf'); 
 }
 
 
-/* ------------------------------------ */
-input {
-  display: block;
-	outline: none;
-	border: none !important;
+.head .column1, .head .column2, .head .column3, .head .column4{
+  font-family: Poppins-SemiBold !important;
 }
 
-textarea {
-  display: block;
-  outline: none;
-}
-
-textarea:focus, input:focus {
-  border-color: transparent !important;
-}
-
-/* ------------------------------------ */
-button {
-	outline: none !important;
-	border: none;
-	background: transparent;
-}
-
-button:hover {
-	cursor: pointer;
-}
-
-iframe {
-	border: none !important;
+.body .column1, .body .column2, .body .column3, .body .column4{
+  font-family: Poppins-Regular !important;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -132,14 +92,7 @@ iframe {
 }
 
 
-/*//////////////////////////////////////////////////////////////////
-[ Table ]*/
-
-.limiter {
-  width: 1366px;
-  margin: 0 auto;
-}
-
+/*Tableeeee///////*/
 .container-table100 {
   width: 100%;
   min-height: 100vh;
@@ -157,7 +110,7 @@ iframe {
 }
 
 .wrap-table100 {
-  width: 1170px;
+  width: 830px;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -176,7 +129,7 @@ th, td {
 }
 
 .column1 {
-  width: 33%;
+  width: 20%;
   padding-left: 40px;
 }
 
@@ -221,7 +174,7 @@ th, td {
 }
 
 .table100-body {
-  max-height: 585px;
+  max-height: 450px;
   overflow: auto;
 }
 

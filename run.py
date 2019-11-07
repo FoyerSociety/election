@@ -3,7 +3,7 @@ import sys
 
 options = {
 	'mode' : 'custom',
-	'args' : ['/usr/bin/electron4' if sys.platform == 'linux' else '', '.']
+	'args' : ['/usr/bin/electron' if sys.platform == 'linux' else '', '.']
 }
 
 eel.init('view')
