@@ -10,6 +10,7 @@
 		<title>Election</title>
 		<link href="assets/css/insert.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/form.css">
 	</head>
 
 <body id="page-top">
@@ -34,7 +35,7 @@
 			<!-- Nav Item - Dashboard -->
 			<li class="nav-item">
 				<a class="nav-link" href="index.html">
-				<i class="fas fa-fw fa-tachometer-alt"></i>
+				<i class="fa fa-home"></i>
 				<span>Accueil</span></a>
 			</li>
 
@@ -49,28 +50,28 @@
 		
 			<!-- Nav Item - Charts -->
 			<li class="nav-item">
-				<a class="nav-link" href="charts.html">
+				<a class="nav-link" href="#" style="color:#fff !important; font-family:Poppins-SemiBold;">
 				<i class="fa fa-plus"></i>
 				<span>Ajouter des électeurs</span></a>
 			</li>
 		
 			<!-- Nav Item - Charts -->
 			<li class="nav-item">
-				<a class="nav-link" href="charts.html">
+				<a class="nav-link" href="search.html">
 				<i class="fa fa-search"></i>
 				<span>Voir les électeurs</span></a>
 			</li>
 		
 			<!-- Nav Item - Tables -->
 			<li class="nav-item">
-				<a class="nav-link" href="tables.html">
+				<a class="nav-link" href="history.html">
 				<i class="fa fa-list"></i>
 				<span>Historiques</span></a>
 			</li>
 		
 			<!-- Nav Item - Tables -->
 			<li class="nav-item">
-				<a class="nav-link" href="tables.html">
+				<a class="nav-link" href="result.html">
 				<i class="fa fa-location-arrow"></i>
 				<span>Envoyer des résultats</span></a>
 			</li>
@@ -176,8 +177,30 @@
 
 				<!-- Begin Page Content -->
 				<div class="container-fluid">
-					<!-- Page Heading -->
-					<h1 class="h3 mb-4 text-gray-800">Insertion</h1>
+					<div class="wrap-login100 p-t-85 p-b-20">
+						<form class="login100-form validate-form">
+							<span class="login100-form-title p-b-70">
+								Electeur
+							</span>
+	
+							<div class="entrer wrap-input100 validate-input m-t-85 m-b-35" >
+								<input class="input100" type="text">
+								<span class="focus-input100" data-placeholder="Nom"></span>
+							</div>
+	
+							<div class="entrer wrap-input100 validate-input m-b-50" >
+								<input class="input100" type="password">
+								<span class="focus-input100" data-placeholder="Prénoms"></span>
+							</div>
+	
+							<div class="container-login100-form-btn">
+								<button class="login100-form-btn" onclick="window.location='insert.html'">
+									<i class="fa fa-angle-right"> <span class="text-btn">SUIVANT</span> </i>
+								</button>
+							</div>
+	
+						</form>
+					</div>
 				</div>
 				<!-- /.container-fluid -->
       			</div>
@@ -213,7 +236,7 @@
 	</div>
 
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
-
+	<script>window.$ = window.jQuery = require('jquery');</script>
 	<!-- Core plugin JavaScript-->
 	<script src="assets/js/jquery.easing.min.js"></script>
 
