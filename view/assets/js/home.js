@@ -84,6 +84,7 @@ function validateLogin(response){
     else{
         let error = `<p>  ${response} </p>`;
         $('.alert-danger').html(error);
+        $('.loading-img').html('');
     }
-    $('.loading-img').html('')
+    
 }

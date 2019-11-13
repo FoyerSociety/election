@@ -7,6 +7,14 @@
   font-family: Poppins-Regular !important;
 }
 
+.head .column3{
+  padding-left:60px;
+}
+.body .column3{
+  padding-left:70px;
+  background-color: red;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ Scroll bar ]*/
 .js-pscroll {
