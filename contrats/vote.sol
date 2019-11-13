@@ -34,6 +34,7 @@ contract Vote {
         return "Hello World";
     }
 
+
     function voting(address pers, address bVplace) public returns (uint){
         for (uint i = 0; i < personne.length; i++){
             if (pers == personne[i].own){

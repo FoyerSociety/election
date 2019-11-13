@@ -69,3 +69,21 @@
     
 })(jQuery);
 
+
+function login(){
+    $('.loading-img').html("<img src='assets/img/loading-44.gif'>");
+    $('.alert-danger').html('');
+    eel.login( $('#username').val(), $('#passwd').val() )(validateLogin);
+}
+
+
+function validateLogin(response){
+    if (response == true){
+        window.location ='insert.html';
+    }
+    else{
+        let error = `<p>  ${response} </p>`;
+        $('.alert-danger').html(error);
+    }
+    $('.loading-img').html('')
+}
