@@ -44,7 +44,7 @@ py-evm==0.3.0a7
 py-solc-x==0.6.0
 pycryptodome==3.9.1
 pyethash==0.1.27
-PyInstaller==3.5
+PyInstaller==3.6
 pyrsistent==0.15.5
 requests==2.22.0
 rlp==1.1.0
