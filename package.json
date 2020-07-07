@@ -15,7 +15,7 @@
 	"author": "DevSociety: https://github.com/orgs/FoyerSociety/teams/devsociety/members",
 	"license": "MIT",
 	"devDependencies": {
-		"electron": "^3.0.2"
+		"electron": "^9.1.0"
 	},
 	"dependencies": {
 		"diff": "^3.5.0",
